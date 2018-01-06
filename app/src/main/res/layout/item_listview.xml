@@ -13,10 +13,9 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         app:srcCompat="@drawable/ic_fruit_icons_01"/>
-
+<!-- style="@style/TextAppearance.AppCompat.Button"-->
     <TextView
         android:id="@+id/tv_item"
-        style="@style/TextAppearance.AppCompat.Button"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"

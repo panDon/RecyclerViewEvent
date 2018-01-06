@@ -73,8 +73,8 @@ public class RecyAdapter extends RecyclerView.Adapter<RecyAdapter.ViewHolder> {
 
         ViewHolder(View itemView) {
             super(itemView);
-            mTextView = itemView.findViewById(R.id.tv_item);
-            mImageView = itemView.findViewById(R.id.img_item);
+            mTextView = (TextView)itemView.findViewById(R.id.tv_item);
+            mImageView = (ImageView)itemView.findViewById(R.id.img_item);
         }
     }
 }
